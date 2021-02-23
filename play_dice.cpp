@@ -29,7 +29,8 @@ int main()
         {
             int dice_output1 = rand()%6+1;
             int dice_output2 = rand()%6+1  ; 
-            int sum;
+            int sum,prev_sum;
+            //prev_sum = 0;
             
             sum = dice_output1 + dice_output2;
             cout <<"You rolled: "<<dice_output1 <<" and "<<dice_output2<<endl;
@@ -57,11 +58,22 @@ int main()
                   cout<<"Thanks for playing!"<<endl;
                   break;
             }
+            else if (prev_sum == sum)
+            {
+                  cout<<"You won!"<<endl;
+                  cout<<"Want to play again?"<<endl;
+                  cin>>response4;
+                  if (response4=="y")
+                      continue;
+                  else
+                      break;
+
+            }
             else
                 cout<<"You establishes a point, you need to get the sum of: "<<sum<<". Roll again? (y or no)"<<endl;
                 cin>>response3;
 
-               
+                prev_sum = sum;
                 int sum2,dice_output3,dice_output4;
                 if (response3=="y")
                 {
