@@ -1,0 +1,40 @@
+Welcome to craps dice game!
+Rules: If the sum of your dice is 7 or 11, you win!
+But if the sum of your dice is 2 or 3 or 12, you lose...
+Do you want to start? (y or no)
+You rolled: 3 and 1
+So your sum is: 4
+You establishes a point, you need to get the sum of: 4. Roll again? (y or no)
+You rolled: 6 and 1
+So your sum is: 7
+Congrats you won!
+Continue? (y or no)
+You rolled: 4 and 1
+So your sum is: 5
+You establishes a point, you need to get the sum of: 5. Roll again? (y or no)
+You rolled: 2 and 3
+So your sum is: 5
+You establishes a point, you need to get the sum of: 5. Roll again? (y or no)
+You rolled: 3 and 6
+So your sum is: 9
+You establishes a point, you need to get the sum of: 9. Roll again? (y or no)
+You rolled: 2 and 1
+So your sum is: 3
+Sorry you lost...
+Try again? (y or no)
+You rolled: 6 and 1
+So your sum is: 7
+Congrats you won!
+Continue? (y or no)
+You rolled: 1 and 6
+So your sum is: 7
+Congrats you won!
+Continue? (y or no)
+You rolled: 2 and 6
+So your sum is: 8
+You establishes a point, you need to get the sum of: 8. Roll again? (y or no)
+You rolled: 2 and 1
+So your sum is: 3
+Sorry you lost...
+Try again? (y or no)
+Thanks for playing!

@@ -1,1 +1,48 @@
 Add your steps (pseudo-code) for the dice game here.
+
+Display greetings
+Display the rules of the game
+Ask the player whether he/she wants to start the game
+Take answer from the player
+While answer is "Y" or "y"
+     Set playing to true
+     Starts the game
+     Rolls the dice
+     Display the results of the rolled dice
+     Display what the results means (win,lose or establishes a point)
+     IF the player wins (sum of the rolled dice is 7 or 11) 
+         Display congratulations
+         Set playing to false
+     IF the player loses (sum of the rolled dice is 2 or 3 or 12)
+         Display Sorry You Lost
+         Set playing to false
+     IF the player neither win or lose
+         Establishes a point
+         Display the point to the player (Player needs get the same sum in the next roll to win)
+         Set not win to true
+         Set not lose to true
+         WHILE not win and not lose is true
+            Rolls the dice
+            Display the sum of the dice
+            If the sum is equal the point
+               Display congratulations
+               Break loop
+            ELSE IF the sum is equal to 7
+               Display sorry you lost
+               Break loop
+            ELSE
+               Ask the user to roll again until the sum hits the above condition
+
+     IF the player rolls (after establishing a point) is equal to the point
+         Display congratulations
+     IF the player rolls (after establishing a point) is equal to 7
+         Display sorry you Lost
+     Ask if the player wants to continue
+        IF "y"
+          continue the loop
+        else
+          display thanks for playing
+          break the loop 
+
+
+
